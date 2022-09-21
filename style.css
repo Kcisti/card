@@ -1,0 +1,122 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-size-adjust:none;
+  font-size-adjust: none;
+}
+body{
+  background: hsl(0, 0%, 7%);
+  padding: 50px;
+  overflow: hidden;
+}
+
+.profile{
+  margin-top: 5%;
+  background: hsl(240, 2%, 12%);
+  border: 1px solid hsl(0 , 0%, 22%);
+  border-radius: 30px;
+  padding:50px;
+  box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  z-index: 1;
+}
+
+.profile_head{
+  padding-bottom: 10%;
+  border-bottom: 2px solid hsl(0, 0%, 22%);
+}
+.profile_head_img{
+  margin-top: 10%;
+  width: 55%;
+  border-radius: 30px;
+}
+.profile_head_name{
+  margin:5%;
+  font-size: 65px;
+  color: #D2D2D2;
+}
+.profile_head_topic{
+  font-size: 40px;
+  color: #D2D2D2;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border:0px ;
+  border-radius: 25px;
+  background-color: hsl(240, 1%, 17%);
+}
+
+.profile_body{
+  margin-top:5%;
+  border-top: 1px solid #202020;
+  margin-bottom: 5%;
+  border-bottom: 2px solid hsl(0, 0%, 22%);
+}
+.profile_body_info{
+  margin-bottom: 5%;
+}
+.profile_body_info_b{
+  position: relative;
+  background: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 25%) 0%,
+    hsla(0, 0%, 25%, 0) 50%
+  );
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  display: inline-flex;
+  border: 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bolder;
+  color:hsl(252, 47%, 36%);
+  box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  z-index: 1;
+}
+.profile_body_info_writes{
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 2px;
+  position: fixed;
+}
+.profile_body_info_title{
+  font-variant: small-caps;
+  font-size: 60px;
+  color: #707070;
+  margin: 0px;
+}
+.profile_body_info_content{
+  font-size: 45px;
+  color: #d2d2d2;
+  margin: 0px;
+  max-width: 450px;
+  max-height: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.profile_body_info_content::-webkit-scrollbar{
+  width: 0px;
+}
+
+.profile_footer{
+  margin-top: 5%;
+  height: 30px;
+  margin-bottom: 4%;
+  background: none;
+  border: 0px;
+}
+.profile_footer_s_icons{
+  font-size: 50px;
+  margin: 0px;
+  margin-right: 25px;
+  color:hsl(252, 47%, 36%);
+  float: right;
+}
+.profile_footer_c_icons{
+  font-size: 50px;
+  margin: 0px;
+  margin-left: 25px;
+  color:hsl(252, 47%, 36%);
+  position: fixed;
+}
