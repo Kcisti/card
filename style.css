@@ -8,6 +8,8 @@
   --border : hsl(0, 0%, 22%);
 
   --boxShadow : -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+
+  --transition : 0.8s ease-in-out;
 }
 
 *{
@@ -28,14 +30,14 @@ body{
   border-radius: 30px;
   padding:50px;
   box-shadow: var(--boxShadow);
-  transition: 0.4s ease-in-out;
+  transition: var(--transition);
   transform-origin:top;
   overflow: hidden;
   max-height: 9999px;
 }
 
 .profile_codes{
-  transition: 0.4s ease-in-out;
+  transition: var(--transition);
   transform-origin:top;
   overflow: hidden;
   max-height: 9999px;
@@ -51,11 +53,18 @@ body{
 .profile_head{
   padding-bottom: 10%;
   border-bottom: 2px solid var(--border);
+  transition: var(--transition);
 }
 .profile_head_img{
+  padding-top: 5%;
+  padding-bottom: 3%;
   margin-top: 10%;
-  width: 55%;
+  width: 50%;
+  background: var(--lightGrey);
   border-radius: 30px;
+}
+.phimg{
+  width: 80%;
 }
 .profile_head_name{
   margin:5%;
@@ -79,7 +88,7 @@ body{
   margin-bottom: 5%;
   border-bottom: 2px solid var(--lightGrey);
   list-style-type: none;
-  transition: 0.4s ease-in-out;
+  transition: var(--transition);
   transform-origin:top;
   overflow: hidden;
   max-height: 9999px;
@@ -137,6 +146,7 @@ body{
 
 .profile_footer{
   margin-top: 5%;
+  transition: var(--transition);
   height: 30px;
   margin-bottom: 4%;
   background: none;
@@ -151,7 +161,7 @@ body{
 }
 
 .profile_close{
-  max-height:780px;
+  max-height:750px;
 }
 .profile_codes_close{
   max-height:0px;
